@@ -1,0 +1,248 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+$font-stack: 'Montserrat', sans-serif;
+
+$primary-color: #232632;
+$secundary-color: #4FD2C2;
+$secundary-color-darker: #4DC5B6;
+$text-color: #4a4a4a;
+$button-text-color: #FDFEFE;
+
+$border-color: #EDF1F5;
+$border-color-inputs: #BABBC1;
+$border-color-inputs-hover: #787985;
+$border-color-inputs-focus: #323241;
+
+
+$midnight-express: #232632;
+$azure: #FDFEFE;
+$medium-turquoise: #4FD2C2;
+$tradewind: #77A39E;
+$medium-turquoise: #4DC5B6;
+$ottoman: #D3D5D2;
+
+$break-small: 576px;
+$break-medium: 768px;
+$break-large: 992px;
+$break-extra-large: 1200px;
+
+
+html {
+	overflow-y: scroll;
+}
+
+body {
+	font-family: $font-stack;
+	background-color: #EDF1F5;
+	font-size: 15px;
+}
+
+a {
+	color: $secundary-color;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: none;
+		color: $secundary-color-darker;
+	}
+}
+
+.navbar.navbar-default {
+	border-radius: 0;
+	border: none;
+
+	@media screen and (max-width: $break-small) {
+		.navbar-nav {
+			margin: 7px 0px;
+		}
+	}
+}
+
+.container.main {
+	padding: 10px;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+.fill-space {
+	width: 100%;
+}
+
+.text-small {
+	font-size: 14px;
+}
+
+.m-0 {
+	margin: 0;
+}
+
+.btn.app-btn {
+	background-color: $secundary-color;
+	color: $button-text-color;
+	border: none;
+	border-radius: 2px;
+
+	&:hover {
+		background-color: $secundary-color-darker;
+	}
+
+	&:focus {
+		color: $button-text-color;
+	}
+
+	&.call-to-action {
+		text-transform: uppercase;
+		padding: 10px 20px;
+		font-weight: bold;
+	}
+}
+
+.app-paper {
+	width: 600px;
+	margin: 0 auto;
+	display: block;
+	border: 1px solid $border-color;
+    border-radius: 2px;
+    background-color: #ffffff;
+    padding: 10px 50px 30px 50px;
+
+    &.login {
+    	width: 450px;
+
+    	@media screen and (max-width: $break-small) {
+		    width: 100%;
+		    padding: 10px 20px 30px 20px;
+		}
+    }
+
+	@media screen and (max-width: $break-small) {
+	    width: 100%;
+	    padding: 10px 20px 30px 20px;
+	}
+}
+
+.app-tabs.nav-tabs {
+	& > li > a {
+		margin: 0;
+		font-weight: bold;
+		color: $primary-color;
+		background-color: transparent;
+		border: 1px solid transparent;
+
+		&:hover {
+			border-bottom: 1px solid $primary-color;
+		}
+	}
+
+	& > li.active > a,
+	& > li.active > a:hover,
+	& > li.active > a:focus {
+		color: $secundary-color;
+		border: 1px solid transparent;
+		background-color: transparent;
+		border-bottom: 2px solid $secundary-color;
+	}
+}
+
+.app-input {
+    border-radius: 2px;
+	border-color: $border-color-inputs;
+    line-height: 40px;
+    position: relative;
+	vertical-align: middle;
+    font: inherit;
+    font-size: 14px;
+    max-width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    height: 40px;
+    margin: 0;
+    padding: 10px;
+    box-shadow: none;
+
+    &:hover {
+    	border-color: $border-color-inputs-hover;
+    }
+
+    &:focus {
+    	box-shadow: none;
+    	border-color: $border-color-inputs-focus;
+    }
+}
+
+.app-label {
+	line-height: 40px;
+	text-transform: capitalize;
+}
+
+.mandatory-star {
+	color: $secundary-color;
+}
+
+.help-block {
+	margin: 0;
+	font-size: 13px;
+}
+
+.app-alert {
+	margin: 0;
+	border: none;
+	border-radius: 0;
+}
+
+.checkbox label {
+	padding-left: 30px;
+}
+
+input[type="checkbox"].app-checkbox-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+	width: 20px;
+    height: 20px;
+    margin-left: -30px;
+    margin-top: 2px;
+    border: 1px solid $border-color-inputs;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: #ffffff;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    &:hover {
+    	border-color: $border-color-inputs-hover;
+    }
+
+    &:focus {
+    	outline: none;
+    }
+
+    &:checked {
+    	background-image: url('../assets/images/checked.png');
+    	background-color: $secundary-color;
+    }
+}

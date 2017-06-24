@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'login' => 'Prijava',
+    'signup' => 'Registracija',
+    'talent' => 'Talenat',
+    'candidate' => 'Kandidat',
+    'employer' => 'Poslodavac',
+    'first_name' => 'Ime',
+    'last_name' =>  'Prezime',
+    'email' => 'Email',
+    'password' => 'Lozinka',
+    'sign_in' => 'Prijava',
+    'sign_out' => 'Odjavi se',
+    'register' => 'Registrujte se',
+    'phone' => 'Telefon',
+    'job_title' => 'Naziv posla',
+    'company_name' => 'Naziv kompanije',
+    'company_url' => 'URL kompanije',
+    'company_size' => 'Broj zaposlenih',
+    'create_account' => 'Kreirajte račun',
+    'info' => 'Info',
+    'error' => 'Greška',
+    'success' => 'Uspješno',
+    'warning' => 'Upozorenje',
+    'remember_me' => 'Zapamti me',
+    'reset_password' => 'Resetuj lozinku',
+    'send' => 'Pošalji',
+    'confirm_password' => 'Potvrdi lozinku',
+    'access_forbidden' => 'Pristup zabranjen',
+    'not_found' => 'Nije pronađeno'
+];

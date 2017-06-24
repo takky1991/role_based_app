@@ -1,0 +1,25 @@
+{
+    "Already have an account?": "Posjedujete korisnički račun?",
+    "Enter first name": "Unesite ime",
+    "Enter last name": "Unesite prezime",
+    "you@example.com" : "primjer@email.com",
+    "Create password": "Kreirajte lozinku",
+    "Your role or position": "Vaša uloga ili pozicija",
+    "http://yourcompany.com": "http://tvojakompanija.com",
+    "Select one": "Izaberite jedno",
+    "Don't have an account?": "Nemate korisnički račun?",
+    "Email address confirmed. You can now login.": "Email adresa potvrđena. Možete se prijaviti.",
+    "Token not valid!": "Token nije validan!",
+    "Confirm your email address to be able to login.": "Potvrdite Vašu email adresu kako bi se mogli prijaviti.",
+    "Forgot your password?": "Zaboravili ste lozinku?",
+    "Hello, :name": "Zdravo, :name",
+    "Welcome. To complete the registration process please verify your email address by clicking on the button bellow.": "Dobrodošli. Da bi završili proces registracije morate potvrditi Vašu email adresu klikom na dugme ispod.",
+    "Confirm email": "Potvrdi email",
+    "All rights reserved.": "Sva prava zadržava.",
+    "If you’re having trouble clicking the \":actionText\" button, copy and paste the URL below into your web browser: [:actionUrl](:actionUrl)": "Ako iz nekog razloga niste u mogućnosti kliknuti na dugme \":actionText\", kopirajte i zalijepite URL ispod u Vaš web pretraživač: [:actionUrl](:actionUrl)",
+    "Regards,": "S poštovanjem,",
+    "Reset Password": "Izmjena Lozinke",
+    "You are receiving this email because we received a password reset request for your account.": "Zatražili ste izmjenu lozinke. Kliknite na dugme ispod.",
+    "If you did not request a password reset, no further action is required.": "Ako niste Vi tražili izmjenu lozinke, slobodno zanemarite ovaj email."
+
+}
